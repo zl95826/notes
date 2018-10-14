@@ -1,1 +1,1 @@
-# tictactoe project
+# tic-tac-toe Project
