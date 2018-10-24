@@ -15,3 +15,4 @@ The :nth-child() CSS pseudo-class matches elements based on their position in a 
 The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent.
 The :nth-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings.
 The :nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.
+(the index of the first child is 1)
