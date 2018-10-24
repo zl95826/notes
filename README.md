@@ -11,3 +11,7 @@ You want to use strict mode not only because you want to throw errors when you d
 THe Arrow function does not have its own 'this', which means it's going to use its parents 'this'. //It uses 'this' from the code that contains the Arrow Function.
 splice:adds/removes items to/from an array, returns the removed item(s), changes the existing array; Array method
 slice:returns the extracted parts.The original array/string will not be changed.
+The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings.
+The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent.
+The :nth-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings.
+The :nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.
