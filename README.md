@@ -16,3 +16,6 @@ The :nth-child(n) selector matches every element that is the nth child, regardle
 The :nth-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings.\
 The :nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.\
 (the index of the first child is 1)<br />
+text-decoration:line-through\
+tagName: A String, return the tag name of the element in uppercase\
+You can use className and classList to add a class to an element, however classList has several methods: add,remove,toggle,contain... 
