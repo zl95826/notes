@@ -329,7 +329,7 @@ a:hover {
   }
 }
 .header {
-  background-color: pink;
+  background-color: white;
   width: 70%;
   margin: 0 auto;
 }
@@ -378,4 +378,8 @@ a:hover {
 }
 .cal-frame .active {
   color: red;
+}
+#pre,
+#next {
+  cursor: pointer;
 }
