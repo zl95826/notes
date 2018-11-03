@@ -23,3 +23,4 @@ CSS border-radius: The four values for each radius are given in the order top-le
 CSS box-shadow, rotate(): rotates the element clockwise from its current position.\
 The transform-style property specifies how child elements are rendered in 3D space.The transform-style property must be used together with the transform property. transform-style: flat|preserve-3d|initial|inherit;\
 The perspective property is used to give a 3D-positioned element some perspective. When defining the perspective property for an element, it is the CHILD elements that get the perspective view, NOT the element itself.\
+css backface-visibility
