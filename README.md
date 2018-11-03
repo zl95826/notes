@@ -1,6 +1,6 @@
 Project\
-//arrow function\
-//prototype\
+arrow function\
+prototype\
 ParentNode.append VS Node.appendChild()\
 Custom Range Slider\
 Redo JavaScript Progress Bar\
