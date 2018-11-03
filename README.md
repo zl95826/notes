@@ -20,4 +20,4 @@ text-decoration:line-through\
 tagName: A String, return the tag name of the element in uppercase\
 You can use className and classList to add a class to an element, however classList has several methods: add,remove,toggle,contain... \
 CSS border-radius: The four values for each radius are given in the order top-left, top-right, bottom-right, bottom-left. \
-CSS box-shadow
+CSS box-shadow, rotate(): rotates the element clockwise from its current position.
