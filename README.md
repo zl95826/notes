@@ -21,6 +21,7 @@ tagName: A String, return the tag name of the element in uppercase\
 You can use className and classList to add a class to an element, however classList has several methods: add,remove,toggle,contain... \
 CSS border-radius: The four values for each radius are given in the order top-left, top-right, bottom-right, bottom-left. \
 CSS box-shadow, rotate(): rotates the element clockwise from its current position.\
-The transform-style property specifies how child elements are rendered in 3D space.The transform-style property must be used together with the transform property. transform-style: flat|preserve-3d|initial|inherit;\
+The transform-style property specifies how child elements are rendered in 3D space.The transform-style property must be used together with the transform property. transform-style: flat | preserve-3d | initial | inherit;\
 The perspective property is used to give a 3D-positioned element some perspective. When defining the perspective property for an element, it is the CHILD elements that get the perspective view, NOT the element itself.\
-css backface-visibility
+css backface-visibility: the property defines whether or not the back face of an element should be visible when facing the user.\
+This property is useful when an element is rotated. It lets you choose if the user should see the back face or not.\
