@@ -26,4 +26,4 @@ The transform-style property specifies how child elements are rendered in 3D spa
 The perspective property is used to give a 3D-positioned element some perspective. When defining the perspective property for an element, it is the CHILD elements that get the perspective view, NOT the element itself.\
 css backface-visibility: the property defines whether or not the back face of an element should be visible when facing the user.\
 This property is useful when an element is rotated. It lets you choose if the user should see the back face or not.\
-The text-decoration property is mostly used to remove underlines from links.\
+The text-decoration property is mostly used to remove underlines from links. |||| css outline \
