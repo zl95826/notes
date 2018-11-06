@@ -27,3 +27,4 @@ The perspective property is used to give a 3D-positioned element some perspectiv
 css backface-visibility: the property defines whether or not the back face of an element should be visible when facing the user.\
 This property is useful when an element is rotated. It lets you choose if the user should see the back face or not.\
 The text-decoration property is mostly used to remove underlines from links. |||| css outline \
+If you want to add style to <hr> tag, you need to add the color/width/style using border property.
