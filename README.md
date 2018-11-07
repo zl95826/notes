@@ -28,3 +28,4 @@ css backface-visibility: the property defines whether or not the back face of an
 This property is useful when an element is rotated. It lets you choose if the user should see the back face or not.\
 The text-decoration property is mostly used to remove underlines from links. |||| css outline \
 If you want to add style to a hr tag, you need to add the color/width/style using border property.<hr/>
+The mix-blend-mode property specifies how an element's content should blend with its direct parent background.
