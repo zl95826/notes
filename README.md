@@ -29,4 +29,5 @@ This property is useful when an element is rotated. It lets you choose if the us
 The text-decoration property is mostly used to remove underlines from links. |||| css outline \
 If you want to add style to a hr tag, you need to add the color/width/style using border property.<hr/>
 The mix-blend-mode property specifies how an element's content should blend with its direct parent background.\
-Math.floor(x) returns the value of x rounded down to its nearest integer;Math.round(x) returns the value of x rounded to its nearest greater integer.
+Math.floor(x) returns the value of x rounded down to its nearest integer;Math.round(x) returns the value of x rounded to its nearest greater integer.\
+ES6 will almost certainly not cover syntax for defining class variables. Only methods and getters/setters can be defined using the class syntax. 
