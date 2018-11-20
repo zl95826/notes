@@ -32,4 +32,5 @@ The mix-blend-mode property specifies how an element's content should blend with
 Math.floor(x) returns the value of x rounded down to its nearest integer;Math.round(x) returns the value of x rounded to its nearest greater integer.\
 ES6 will almost certainly not cover syntax for defining class variables. Only methods and getters/setters can be defined using the class syntax. \
 points="100,10 40,198 190,78 10,78 160,198" This is five "corners" starting at (100,10), with a line from there to (40, 198) and so on. The final point joins the first point to make a closed polygon. Each point is separated by space, the comma used to seperate the x and y coordinates of each point.\
-string.replace(searchvalue, newvalue)
+string.replace(searchvalue, newvalue)\
+The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
