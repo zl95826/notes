@@ -34,7 +34,7 @@ ES6 will almost certainly not cover syntax for defining class variables. Only me
 points="100,10 40,198 190,78 10,78 160,198" This is five "corners" starting at (100,10), with a line from there to (40, 198) and so on. The final point joins the first point to make a closed polygon. Each point is separated by space, the comma used to seperate the x and y coordinates of each point.\
 string.replace(searchvalue, newvalue)\
 The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element. \
-<hr />
+<hr/>
 var a = 'foo';var b={a}; // b={a:'foo'}\
   b.a==={a}.a // true\
 however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
