@@ -41,4 +41,6 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   <b>Object.assign(target, ...sources)</b> This method has a flaw that it only does a shallow copy. It means that nested properties are still going to be copied by reference. Be careful about it.\
   <b>obj.hasOwnProperty(prop)</b>\
   Use for…of to iterate over the values in an iterable;\
-  Use for…in to iterate over the properties of an object (the object keys) //https://alligator.io/js/for-of-for-in-loops/
+  Use for…in to iterate over the properties of an object (the object keys) // https://alligator.io/js/for-of-for-in-loops/\
+ <b>Object.values</b> takes an object and returns an array with the values, in the same order that a for…in loop would give us.\
+ <b>Object.entries</b>returns an array with arrays of key-value pairs // https://alligator.io/js/object-entries-values/
