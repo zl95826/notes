@@ -43,4 +43,13 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   Use for…in to iterate over the properties of an object (the object keys) // https://alligator.io/js/for-of-for-in-loops/ \
  <b>Object.values</b> takes an object and returns an array with the values, in the same order that a for…in loop would give us.\
  <b>Object.entries </b>returns an array with arrays of key-value pairs // https://alligator.io/js/object-entries-values/ \
-  Plain objects (as created by object literals) are not iterable
+  Plain objects (as created by object literals) are not iterable\
+  Deep copy using iteration\
+  function deepClone(source) {
+let target={};
+for (let i in source) {
+if (source.hasOwnProperty(i)) {target[i]=source[i]}}
+return target;
+}const source = {a:1, b:2, c:3};
+const target = deepClone(source);
+console.log(target);
