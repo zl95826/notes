@@ -44,6 +44,6 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
  <b>Object.values</b> takes an object and returns an array with the values, in the same order that a for…in loop would give us.\
  <b>Object.entries </b>returns an array with arrays of key-value pairs // https://alligator.io/js/object-entries-values/ \
   Plain objects (as created by object literals) are not iterable\
-  <em>Clone an object</em>: deep copy using iteration, Object.assign(), JSON.parse(JSON.stringify(src))\
+  <b>Clone an object</b>: deep copy using iteration, Object.assign(), JSON.parse(JSON.stringify(src))\
   https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d
   
