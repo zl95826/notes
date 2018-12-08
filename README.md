@@ -47,5 +47,6 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   <b>Clone an object</b>: deep copy using iteration, Object.assign(), JSON.parse(JSON.stringify(src))\
   https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d \
   <b>How to concatenate arrays?</b> var arr1 = [0, 1, 2];var arr2 = [3, 4, 5];arr1 = arr1.concat(arr2); \
-  Or using spread syntax: arr1 = [...arr1, ...arr2];
+  Or using spread syntax: arr1 = [...arr1, ...arr2];\
+  - dash
   
