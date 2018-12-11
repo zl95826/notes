@@ -50,5 +50,6 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   Or using spread syntax: arr1 = [...arr1, ...arr2];\
   - dash: -\
   CSS: The <b>content</b> property is used with the ::before and ::after pseudo-elements, to insert generated content. \
-  You cannot style generated content without defining what that content should be. If you don’t really need any content, just an extra “invisible element” to style, you can set it to the empty string (content: '') and just style that.
+  You cannot style generated content without defining what that content should be. If you don’t really need any content, just an extra “invisible element” to style, you can set it to the empty string (content: '') and just style that.\
+  ES6 string templates
   
