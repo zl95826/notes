@@ -54,5 +54,5 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
 Template literals are string literals allowing embedded expressions. Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). \
 <b>Why CSS calc() not working?</b> Use -webkit prefix and whitespaces around the operator.\
 The + and - operators must always be surrounded by whitespace. The * and / operators do not require whitespace, but adding it for consistency is allowed, and recommended.\
-Recommend always create variables with the const keyword. This is because variables created with a const keyword cannot be reassigned. 
+Recommend always create variables with the const keyword. This is because variables created with a const keyword cannot be reassigned.\ 
   
