@@ -49,8 +49,7 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d \
   <b>How to concatenate arrays?</b> var arr1 = [0, 1, 2];var arr2 = [3, 4, 5];arr1 = arr1.concat(arr2); \
   Or using spread syntax: arr1 = [...arr1, ...arr2];\
-The :nth-of-type selector is very similar to :nth-child but with one critical difference: it is more specific. :nth-of-type only selects children of that type. Other type element is completely skipped over and ignored.<br/>https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
-\
+The :nth-of-type selector is very similar to :nth-child but with one critical difference: it is more specific. :nth-of-type only selects children of that type. Other type element is completely skipped over and ignored.<br/>https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child  (see the last example) \
   - dash: - \
   CSS: The <b>content</b> property is used with the ::before and ::after pseudo-elements, to insert generated content. \
   You cannot style generated content without defining what that content should be. If you don’t really need any content, just an extra “invisible element” to style, you can set it to the empty string (content: '') and just style that. \
