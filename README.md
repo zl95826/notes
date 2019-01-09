@@ -55,4 +55,4 @@ Template literals are string literals allowing embedded expressions. Template li
 <b>Why CSS calc() not working?</b> Use -webkit prefix and whitespaces around the operator.\
 The + and - operators must always be surrounded by whitespace. The * and / operators do not require whitespace, but adding it for consistency is allowed, and recommended.\
 Recommend always create variables with the const keyword. This is because variables created with a const keyword cannot be reassigned.\ 
-  
+Event delegation allows us to add an event listener to one parent, and avoid to add many event listeners to specific nodes.  
