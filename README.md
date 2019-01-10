@@ -51,7 +51,7 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   Or using spread syntax: arr1 = [...arr1, ...arr2];\
 The :nth-of-type selector is very similar to :nth-child but with one critical difference: it is more specific. :nth-of-type only selects children of that type. Other type element is completely skipped over and ignored.<br/>https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child  (see the last example)\
   The placeholder attribute specifies a short hint. The short hint is displayed in the input field before the user enters a value.\
-  - dash: - \
+ dash: - \
   CSS: The <b>content</b> property is used with the ::before and ::after pseudo-elements, to insert generated content. \
   You cannot style generated content without defining what that content should be. If you don’t really need any content, just an extra “invisible element” to style, you can set it to the empty string (content: '') and just style that. \
 Template literals are string literals allowing embedded expressions. Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). \
