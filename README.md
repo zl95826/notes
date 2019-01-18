@@ -66,6 +66,7 @@ Debug:\
 inc:function() {cnt++;console.log(cnt);}\
               };\
 document.addEventListener("click", counter.inc(),false);\
+  ReferenceError: cnt is not defined\
 React \
 Hooks are nothing but methods where you can do appropriate things. If you know what we can do with each hooks and when they are called and why they are called, so we can control things very smoothly.\
 The render() method is the only required method in a class component.
