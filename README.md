@@ -61,6 +61,11 @@ Recommend always create variables with the const keyword. This is because variab
 Event delegation allows us to add an event listener to one parent, and avoid to add many event listeners to specific nodes.\
 event.currentTarget is always the element the event is actually bound; event.target is the element that triggered the event, so e.target could be a child of e.currentTarget, or e.target could be === e.currentTarget, depending on how your markup is structured.\
 <b>window.matchMedia</b> provides a way for Javascript to react when a media query condition is met or unmet. You give the method(matchMedia) a media query string(/ or a CSS media query breakpoint string) it gives you back a MediaQueryList object which has some useful methods and properties: property -> matches and media; method -> addListener(functionref) and removeListener(functionref).\(see more: https://tylergaw.com/articles/reacting-to-media-queries-in-javascript/ and http://www.javascriptkit.com/dhtmltutors/cssmediaqueries4.shtml)  \
+Debug:\
+  const counter={cnt:0,\
+inc:function() {let cnt=9;console.log(cnt);}\
+              };\
+document.addEventListener("click", counter.inc,false);\
 React \
 Hooks are nothing but methods where you can do appropriate things. If you know what we can do with each hooks and when they are called and why they are called, so we can control things very smoothly.\
 The render() method is the only required method in a class component.
