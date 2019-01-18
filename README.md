@@ -63,9 +63,9 @@ event.currentTarget is always the element the event is actually bound; event.tar
 <b>window.matchMedia</b> provides a way for Javascript to react when a media query condition is met or unmet. You give the method(matchMedia) a media query string(/ or a CSS media query breakpoint string) it gives you back a MediaQueryList object which has some useful methods and properties: property -> matches and media; method -> addListener(functionref) and removeListener(functionref).\(see more: https://tylergaw.com/articles/reacting-to-media-queries-in-javascript/ and http://www.javascriptkit.com/dhtmltutors/cssmediaqueries4.shtml)  \
 Debug:\
   const counter={cnt:0,\
-inc:function() {let cnt=9;console.log(cnt);}\
+inc:function() {cnt++;console.log(cnt);}\
               };\
-document.addEventListener("click", counter.inc,false);\
+document.addEventListener("click", counter.inc(),false);\
 React \
 Hooks are nothing but methods where you can do appropriate things. If you know what we can do with each hooks and when they are called and why they are called, so we can control things very smoothly.\
 The render() method is the only required method in a class component.
