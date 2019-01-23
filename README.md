@@ -69,4 +69,7 @@ document.addEventListener("click", counter.inc(),false);\
   ReferenceError: cnt is not defined\
 React \
 Hooks are nothing but methods where you can do appropriate things. If you know what we can do with each hooks and when they are called and why they are called, so we can control things very smoothly.\
-The render() method is the only required method in a class component.
+The render() method is the only required method in a class component.\
+<b>Functional Components vs Class Components</b>: The most obvious one difference is the syntax. A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element. It is also called a functional stateless component which doesn’t have its own state. Another feature which you cannot use in functional components are lifecycle hooks;
+A class component requires you to extend from React.Component and create a render function which returns a React element. This requires more code but will also give you some benefits.\
+You should use functional components if you are writing a component which doesn’t have its own state or needs to access a lifecycle hook. Otherwise you can stick to class components.
