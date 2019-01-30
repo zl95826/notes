@@ -39,7 +39,7 @@ var a = 'foo';var b={a}; // b={a:'foo'}\
   b.a==={a}.a // true\
 however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
   The Object.create() method creates a new object, using an existing object as the prototype of the newly created object.\
-  <b>Object.assign(target, ...sources)</b> This method has a flaw that it only does a shallow copy. It means that nested properties are still going to be copied by reference. Be careful about it.\
+  <b>Object.assign(target, ...sources)</b> This method has a flaw that it only does a shallow copy. It means that nested properties are still going to be copied by reference. Be careful about it. This method helps you copy properties of one object into another object. The Object.assign() method only copies enumerable and own properties from a source object to a target object.\
   <b>obj.hasOwnProperty(prop)</b>\
   Use for…of to iterate over the values in an iterable;\
   Use for…in to iterate over the properties of an object (the object keys) // https://alligator.io/js/for-of-for-in-loops/ \
