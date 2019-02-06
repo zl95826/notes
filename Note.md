@@ -3,4 +3,5 @@ toISOString() method: converts a Date object into a string, using the ISO standa
 The substring() method extracts the characters from a string, between two specified indices, and returns the new sub string. This method extracts the characters in a string between "start" and "end", not including "end" itself.\
 strict comparison (===)\
 CSS: Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements. 可以理解为对于a block element,它会add a line-break after the element,所以following elements只能start from a new line,即便它的width只占10%。\
-CSS property position可以和float同时使用。
+CSS property position可以和float同时使用。\
+setTimeout(): as its name suggests, you have a piece of code that you want to run after certain period of time, you use the setTimeout() function.\
