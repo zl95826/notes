@@ -8,3 +8,4 @@ CSS property position可以和float同时使用。\
 setTimeout(() => alert("World"), 0);alert("Hello"); // this outputs “Hello”, then immediately “World”\
 <b>setInterval</b> method is very similar to setTimeout, but setTimeout happens only one (time); setInterval will keep executing a piece of code/a callback function at a given interval, it doesn't stop until you make a stop. setInterval guarantees that your code will be passed to STACK in exact intervals. Actual time of execution of your code have nothing with setInterval.\
 There are two ways of running something regularly. One is setInterval. The other one is a recursive setTimeout,Recursive setTimeout guarantees a delay between the executions, setInterval – does not.
+Javascript is essentially single threaded, meaning it will not perform more than one operation at a time.
