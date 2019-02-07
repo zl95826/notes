@@ -10,7 +10,7 @@ setTimeout(() => alert("World"), 0);alert("Hello"); // this outputs “Hello”,
 There are two ways of running something regularly. One is setInterval. The other one is a recursive setTimeout,Recursive setTimeout guarantees a delay between the executions, setInterval – does not.\
 Javascript is essentially single threaded, meaning it will not perform more than one operation at a time.\
 What is the difference between an expression and a statement in JS?\
-It can treat any expression as a statement (but it cannot treat statements as expressions). An expression produces a value and can be written wherever a value is expected. A statement performs an action. Loops and if statements are examples of statements.\
+It can treat any expression as a statement (but it cannot treat statements as expressions).<b> An expression produces a value and can be written wherever a value is expected. A statement performs an action.</b> Loops and if statements are examples of statements.\
 (param1, param2, …, paramN) => { statements }  \
 (param1, param2, …, paramN) => expression // equivalent to: => { return expression; } \
 Parenthesize the body of function to return an object literal expression: params => ({foo: bar})
