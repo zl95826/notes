@@ -7,5 +7,10 @@ CSS property position可以和float同时使用。\
 <b>setTimeout()</b>: as its name suggests, you have a piece of code that you want to run after certain period of time, you use the setTimeout() function. One of the main application of setTimeout is make it asynchronous. There’s a special use case: setTimeout(func, 0). The function is scheduled to run “right after” the current code. In other words, asynchronously\
 setTimeout(() => alert("World"), 0);alert("Hello"); // this outputs “Hello”, then immediately “World”\
 <b>setInterval</b> method is very similar to setTimeout, but setTimeout happens only one (time); setInterval will keep executing a piece of code/a callback function at a given interval, it doesn't stop until you make a stop. setInterval guarantees that your code will be passed to STACK in exact intervals. Actual time of execution of your code have nothing with setInterval.\
-There are two ways of running something regularly. One is setInterval. The other one is a recursive setTimeout,Recursive setTimeout guarantees a delay between the executions, setInterval – does not.
-Javascript is essentially single threaded, meaning it will not perform more than one operation at a time.
+There are two ways of running something regularly. One is setInterval. The other one is a recursive setTimeout,Recursive setTimeout guarantees a delay between the executions, setInterval – does not.\
+Javascript is essentially single threaded, meaning it will not perform more than one operation at a time.\
+What is the difference between an expression and a statement in JS?\
+It can treat any expression as a statement (but it cannot treat statements as expressions). An expression produces a value and can be written wherever a value is expected. A statement performs an action. Loops and if statements are examples of statements.\
+(param1, param2, …, paramN) => { statements }  \
+(param1, param2, …, paramN) => expression // equivalent to: => { return expression; } \
+Parenthesize the body of function to return an object literal expression: params => ({foo: bar})
