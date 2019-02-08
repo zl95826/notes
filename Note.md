@@ -13,4 +13,6 @@ What is the difference between an expression and a statement in JS?\
 It can treat any expression as a statement (but it cannot treat statements as expressions).<b> An expression produces a value and can be written wherever a value is expected. A statement performs an action.</b> Loops and if statements are examples of statements.\
 (param1, param2, …, paramN) => { statements }  \
 (param1, param2, …, paramN) => expression // equivalent to: => { return expression; } \
-Parenthesize the body of function to return an object literal expression: params => ({foo: bar})
+Parenthesize the body of function to return an object literal expression: params => ({foo: bar})\
+Why requestAnimationFrame() is better than setTimeout()?\
+The problem with setTimeout() is that even though we specify this interval, the browser might be busy performing other operations, and our setTimeout calls might not make it in time for the repaint, and it’s going to be delayed to the next cycle. This is bad because we lose one frame, and in the next the animation is performed 2 times, causing the eye to notice the clunky animation. requestAnimationFrame is the standard way to perform animations. requestAnimationFrame() since its introduction was very CPU friendly, causing animations to stop if the current window or tab is not visible. Using requestAnimationFrame the browser can further optimize/ˈɒp.tɪ.maɪz/ the resource consumption/kənˈsʌmpʃən/ and make the animations smoother /smuðə/.
