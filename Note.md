@@ -38,4 +38,4 @@ String function try to convert that argument into a string: String(null); // "nu
 But you can also use the String function as a constructor function: const pet = new String("dog")   typeof pet; // "object"   \
 String("dog").constructor === String; // true              "string".constructor===String;//true  \
 What's happening is a process called <b>autoboxing</b>. When you try to call a property or method on certain primitive types, JavaScript will first convert/autobox it into a temporary <b>wrapper object</b>, and access the property / method on it, without affecting the original. \
-undefined or null does not have a wrapper object.
+undefined or null does not have a wrapper object. http://blog.brew.com.hk/not-everything-in-javascript-is-an-object/  \
