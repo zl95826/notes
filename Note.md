@@ -34,8 +34,8 @@ Primitive types are stored by value, objects are stored by reference: (function 
 If you have several objects which share the same implementation, you can place that logic inside a <b>constructor function</b>, and then user the constructor function to create those objects. \
 A constructor function is no different from any other function. A function is used as a constructor function when it is used after the new keyword. Any function can be a constructor function. \
 The <b>constructor method</b> is a special method for creating and initializing an object created within a class.\
-String function try to convert that argument into a string: String(null); // "null"     String(1337); // "1337"    String(true); // "true"\
+String function try to convert that argument into a string: String(null); // "null"     String(1337); // "1337"    String(true); // "true" \
 But you can also use the String function as a constructor function: const pet = new String("dog")   typeof pet; // "object"   \
 String("dog").constructor === String; // true              "string".constructor===String;//true  \
-What's happening is a process called <b>autoboxing<\b>. When you try to call a property or method on certain primitive types, JavaScript will first convert/autobox it into a temporary <b>wrapper object<\b>, and access the property / method on it, without affecting the original. \
+What's happening is a process called <b>autoboxing</b>. When you try to call a property or method on certain primitive types, JavaScript will first convert/autobox it into a temporary <b>wrapper object</b>, and access the property / method on it, without affecting the original. \
 undefined or null does not have a wrapper object.
