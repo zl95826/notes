@@ -39,4 +39,9 @@ But you can also use the String function as a constructor function: const pet = 
 String("dog").constructor === String; // true              "string".constructor===String;//true  \
 What's happening is a process called <b>autoboxing</b>. When you try to call a property or method on certain primitive types, JavaScript will first convert/autobox it into a temporary <b>wrapper object</b>, and access the property / method on it, without affecting the original. \
 undefined or null does not have a wrapper object. http://blog.brew.com.hk/not-everything-in-javascript-is-an-object/  \
-The valueOf() method returns the primitive value of the specified object. || The toString() method returns a string representing the object. By default, the toString() method is inherited by every object descended from Object. If this method is not overridden in a custom object, toString() returns "[object type]" || concat() method combines the text of two strings and returns a new string
+The valueOf() method returns the primitive value of the specified object. || The toString() method returns a string representing the object. By default, the toString() method is inherited by every object descended from Object. If this method is not overridden in a custom object, toString() returns "[object type]" || concat() method combines the text of two strings and returns a new string.\
+<b>When you use new, four things happen:</b>\
+It creates a new, empty object.\
+It binds this to our newly created object.\
+It adds a property onto our newly created object called “__proto__” which points to the constructor function’s prototype object.\
+It adds a return this to the end of the function, so that the object that is created is returned from the function.\
