@@ -31,7 +31,7 @@ A stack overflow occurs when there is a recursive function (a function that call
 Immutable vs Mutable in JS - the immutable (unable to change or mutate) values are primitive values - numbers, strings, booleans, null, undefined). While the mutable are all other objects. The object values are references to the location, in memory, that the value resides. Example: var s = "my string"; s.toUpperCase(); var t = s; //s = "my string", t="my string" \
 Primitive types are stored by value, objects are stored by reference: (function () {}) === (function () {}); // false \
 ({})=== ({}); // false \
-If you have several objects which share the same implementation, you can place that logic inside a <b>constructor function</b>, and then user the constructor function to create those objects. \
+If you have several objects which share the same implementation, you can place that logic inside a <b>constructor function</b>, and then use the constructor function to create those objects. \
 A constructor function is no different from any other function. A function is used as a constructor function when it is used after the new keyword. Any function can be a constructor function. \
 The <b>constructor method</b> is a special method for creating and initializing an object created within a class.\
 String function try to convert that argument into a string: String(null); // "null"     String(1337); // "1337"    String(true); // "true" \
@@ -40,7 +40,7 @@ String("dog").constructor === String; // true              "string".constructor=
 What's happening is a process called <b>autoboxing</b>. When you try to call a property or method on certain primitive types, JavaScript will first convert/autobox it into a temporary <b>wrapper object</b>, and access the property / method on it, without affecting the original. \
 undefined or null does not have a wrapper object. http://blog.brew.com.hk/not-everything-in-javascript-is-an-object/  \
 The valueOf() method returns the primitive value of the specified object. || The toString() method returns a string representing the object. By default, the toString() method is inherited by every object descended from Object. If this method is not overridden in a custom object, toString() returns "[object type]" || concat() method combines the text of two strings and returns a new string.\
-<b>When you use new, four things happen:</b>\
+<b>When you use new, four things happen:</b> https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e  \
 It creates a new, empty object.\
 It binds this to our newly created object.\
 It adds a property onto our newly created object called “__proto__” which points to the constructor function’s prototype object.\
