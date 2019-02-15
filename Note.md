@@ -47,4 +47,5 @@ It creates a new, empty object.\
 It binds this to our newly created object.\
 It adds a property onto our newly created object called “__proto__” which points to the constructor function’s prototype object.\
 It adds a return this to the end of the function, so that the object that is created is returned from the function.\
-<b>Window sizes and scrolling</b>    https://javascript.info/size-and-scroll-window
+<b>Window sizes and scrolling</b>    https://javascript.info/size-and-scroll-window  \
+An em is equal to the computed font-size of that element’s parent. rem values are relative to the root html element, not to the parent element. 
