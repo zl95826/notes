@@ -49,5 +49,5 @@ It adds a property onto our newly created object called “__proto__” which po
 It adds a return this to the end of the function, so that the object that is created is returned from the function.\
 <b>Window sizes and scrolling</b>    https://javascript.info/size-and-scroll-window  \
 An <b>em</b> is equal to the computed font-size of that element’s parent. <b>rem</b> values are relative to the root html element, not to the parent element. \
-<b>Function declarations have priority over variable declarations, but not over variable assignments.</b>
+<b>Function declarations have priority over variable declarations, but not over variable assignments.</b> \
 <b>AJAX</b> allows you to update parts of a website without reloading the entire page. You can receive data from a server and send data to a server in the background.
