@@ -51,4 +51,5 @@ It adds a return this to the end of the function, so that the object that is cre
 An <b>em</b> is equal to the computed font-size of that element’s parent. <b>rem</b> values are relative to the root html element, not to the parent element. \
 <b>Function declarations have priority over variable declarations, but not over variable assignments.</b> \
 <b>AJAX</b> allows you to update parts of a website without reloading the entire page. You can receive data from a server and send data to a server in the background.\
-HTML5 Semantic Elements: details,figure
+HTML5 Semantic Elements: details,figure\
+The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property only works for block elements with a specified height. \
