@@ -51,6 +51,10 @@ It adds a return this to the end of the function, so that the object that is cre
 An <b>em</b> is equal to the computed font-size of that element’s parent. <b>rem</b> values are relative to the root html element, not to the parent element. \
 <b>Function declarations have priority over variable declarations, but not over variable assignments.</b> \
 <b>AJAX</b> allows you to update parts of a website without reloading the entire page. You can receive data from a server and send data to a server in the background.\
-HTML5 Semantic Elements: details,figure\
+<b>HTML</b> \
+HTML5 Semantic Elements: details,figure \
 The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property only works for block elements with a specified height. \
 <b>Each input field must have a name attribute to be submitted.</b> https://www.w3schools.com/html/html_forms.asp   \
+The <img> tag has two required attributes: src and alt. Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image. To link an image to another document, simply nest the <img> tag inside <a> tags. \
+<b>Block level elements in HTML:</b> <hr> <li> <ol> <ul> \
+  Inline elements in HTML: <a> <b> <br> <button> <em> <i> <img> <input> <label> <textarea> <select>
