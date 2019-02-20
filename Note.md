@@ -57,4 +57,4 @@ The overflow property specifies whether to clip the content or to add scrollbars
 <b>Each input field must have a name attribute to be submitted.</b> https://www.w3schools.com/html/html_forms.asp   \
 The <img> tag has two required attributes: src and alt. Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image. To link an image to another document, simply nest the <img> tag inside <a> tags. \
 <b>Block level elements in HTML:</b> hr, li, ol, ul \
-<b>Inline elements in HTML:</b> " <a> <b> <br> <button> <em> <i> <img> <input> <label> <textarea> <select> "
+<b>Inline elements in HTML:</b> a, b, br, button, em, i, img, input, label, textarea, select
