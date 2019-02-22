@@ -59,6 +59,6 @@ The <img> tag has two required attributes: src and alt. Images are not technical
 <b>Block level elements in HTML:</b> hr, li, ol, ul \
 <b>Inline elements in HTML:</b> a, b, br, button, em, i, img, input, label, textarea, select\
   A <b>closure</b> is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished.\
-  The closure function has access to the scope in which it was created, not the scope in which it is executed.\
+  The closure function has access to the scope in which it was created, not the scope in which it is executed. In other words, the inner function preserves the scope chain of the enclosing function at the time the enclosing function was executed, and thus can access the enclosing function’s variables.\
   A <b>lexical scope</b> or static scope in JavaScript refers to the accessibility of the variables, functions, and objects based on their physical location in the source code. \
   https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda
