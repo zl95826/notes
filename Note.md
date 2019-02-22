@@ -58,6 +58,7 @@ The overflow property specifies whether to clip the content or to add scrollbars
 The <img> tag has two required attributes: src and alt. Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image. To link an image to another document, simply nest the <img> tag inside <a> tags. \
 <b>Block level elements in HTML:</b> hr, li, ol, ul \
 <b>Inline elements in HTML:</b> a, b, br, button, em, i, img, input, label, textarea, select\
-A closure is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished.\
-  A lexical scope or static scope in JavaScript refers to the accessibility of the variables, functions, and objects based on their physical location in the source code. \
+  A <b>closure</b> is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished.\
+  The closure function has access to the scope in which it was created, not the scope in which it is executed.\
+  A <b>lexical scope</b> or static scope in JavaScript refers to the accessibility of the variables, functions, and objects based on their physical location in the source code. \
   https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda
