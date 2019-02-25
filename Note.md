@@ -69,5 +69,6 @@ Scope defines the lifetime and visibility of a variable. Every time we create a 
 1.	Write a function.
 2.	Put it inside another function.
 3.	Expose it by returning it or passing it to another function. \
+  
 When a function accepts another function as a parameter, or returns a function, it is called a <b>higher-order function</b>.
 
