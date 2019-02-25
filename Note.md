@@ -1,4 +1,5 @@
 Hoisting is JavaScript's default behavior of moving declarations to the top.\
+<b>ASSIGNING TO AN UNDECLARED VARIABLE MAKES IT GLOBAL</b> \
 https://javascript.info/operators \
 JavaScript String split() Method: The split() method is used to split a string into an array of substrings, and returns the new array.If an empty string ("") is used as the separator, the string is split between each character. The split() method does not change the original string. <i>string.split(separator, limit)</i>\
 toISOString() method: converts a Date object into a string, using the ISO standard. The standard is called ISO-8601 and the format is: YYYY-MM-DDTHH:mm:ss.sssZ\
@@ -59,6 +60,14 @@ The <img> tag has two required attributes: src and alt. Images are not technical
 <b>Block level elements in HTML:</b> hr, li, ol, ul \
 <b>Inline elements in HTML:</b> a, b, br, button, em, i, img, input, label, textarea, select\
   A <b>closure</b> is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished.\
-  The closure function has access to the scope in which it was created, not the scope in which it is executed. In other words, the inner function preserves the scope chain of the enclosing function at the time the enclosing function was executed, and thus can access the enclosing function’s variables.\
+  The closure function has access to the scope in which it was created, not the scope in which it is executed. In other words, <b>the inner function preserves the scope chain of the enclosing function at the time the enclosing function was executed, and thus can access the enclosing function’s variables.</b> Closures store references of outer variables, they don’t copy the actual values. \
   <b>Lexical scoping</b> means scope of a variable is defined by its location within the source code.\
-  https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda
+  https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda  \
+<b>Context</b> is used to refer to the value of this in some particular part of your code. <b>Scope</b> refers to the visibility of variables and context refers to the value of this in the same scope. \
+Scope defines the lifetime and visibility of a variable. Every time we create a function or a block {} , we create a new scope. Variables declared with var have only function scope. Variables declared with let and const can have function and block scope. \
+<b>How do I use a closure?</b>
+1.	Write a function.
+2.	Put it inside another function.
+3.	Expose it by returning it or passing it to another function. \
+When a function accepts another function as a parameter, or returns a function, it is called a <b>higher-order function</b>.
+
