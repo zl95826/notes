@@ -1,4 +1,6 @@
 Hoisting is JavaScript's default behavior of moving declarations to the top.\
+String() which is a constructor call, is basically calling the .toString() \
+Array.valueOf() will return the same as Array \
 <b>ASSIGNING TO AN UNDECLARED VARIABLE MAKES IT GLOBAL</b> \
 https://javascript.info/operators \
 JavaScript String split() Method: The split() method is used to split a string into an array of substrings, and returns the new array.If an empty string ("") is used as the separator, the string is split between each character. The split() method does not change the original string. <i>string.split(separator, limit)</i>\
