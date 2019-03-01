@@ -70,5 +70,6 @@ Scope defines the lifetime and visibility of a variable. Every time we create a 
 2.	Put it inside another function.
 3.	Expose it by returning it or passing it to another function. \
   
-When a function accepts another function as a parameter, or returns a function, it is called a <b>higher-order function</b>.
+When a function accepts another function as a parameter, or returns a function, it is called a <b>higher-order function</b>. \
+<b>Media queries</b> give us a very powerful way to adjust our styles according to factors like the type of device, the viewport size, or even the device orientation, in order to make web pages look good on all devices(desktops, laptops, tablets, phones, etc).
 
