@@ -70,6 +70,7 @@ inc:function() {cnt++;console.log(cnt);}\
 document.addEventListener("click", counter.inc(),false);\
   ReferenceError: cnt is not defined\
   Destructuring allows you to easily access the values of arrays or objects and assign them to variables.\
+  When the equality operators, == and ===, are used on reference-type variables, they check the reference. If the variables contain a reference to the same item, the comparison will result in true.\
   <b>React</b> \
 Hooks are nothing but methods where you can do appropriate things. If you know what we can do with each hooks and when they are called and why they are called, so we can control things very smoothly.\
 The render() method is the only required method in a class component.\
