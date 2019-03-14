@@ -41,7 +41,7 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
 <b>Object.setPrototypeOf(obj, prototype)</b>: The Object.setPrototypeOf() method sets the prototype of a specified object to another object or null.\
 <b>The Object.create(proto, propertiesObject)</b> method creates a new object, using an existing object as the prototype of the newly created object.https://hackernoon.com/object-create-in-javascript-fa8674df6ed2 \
   <b>Object.assign(target, ...sources)</b> This method has a flaw that it only does a shallow copy. It means that nested properties are still going to be copied by reference. Be careful about it. This method helps you copy properties of one object into another object. The Object.assign() method only copies enumerable and own properties from a source object to a target object.\
-  <b>obj.hasOwnProperty(prop)</b>\
+  <b>obj.hasOwnProperty(prop):method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it).</b>\
   Use for…of to iterate over the values in an iterable;\
   Use for…in to iterate over the properties of an object (the object keys) // https://alligator.io/js/for-of-for-in-loops/ \
  <b>Object.values</b> takes an object and returns an array with the values, in the same order that a for…in loop would give us.\
