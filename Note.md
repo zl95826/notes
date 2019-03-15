@@ -74,5 +74,6 @@ Scope defines the lifetime and visibility of a variable. Every time we create a 
   
 When a function accepts another function as a parameter, or returns a function, it is called a <b>higher-order function</b>. \
 <b>Media queries</b> give us a very powerful way to adjust our styles according to factors like the type of device, the viewport size, or even the device orientation, in order to make web pages look good on all devices(desktops, laptops, tablets, phones, etc).\
-A <b>callback</b> function, also known as a higher-order function, is a function that is passed to another function (let’s call this other function “otherFunction”) as a parameter, and the callback function is called (or executed) inside the otherFunction. 
+A <b>callback</b> function, also known as a higher-order function, is a function that is passed to another function (let’s call this other function “otherFunction”) as a parameter, and the callback function is called (or executed) inside the otherFunction. \
+<b>Map object </b>provided by ES6. Map is a collection of elements where each element is stored as a Key, value pair.
 
