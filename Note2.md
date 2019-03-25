@@ -3,4 +3,7 @@ The word <b>“async”</b> before a function means one simple thing: a function
 async/await allows us to write promise-based(asynchronous) code in a "synchronous" manner using the modern versions of Javascript. https://javascript.info/async-await \
 <b>await</b>, that works only inside async functions, makes JavaScript wait until that promise settles and returns its result.\
 With async/await we rarely need to write promise.then/catch, but we still shouldn’t forget that they are based on promises, because sometimes (e.g. in the outermost scope) we have to use these methods. \
-<b>fetch()</b> allows you to make network requests similar to XMLHttpRequest (XHR). The main difference is that the Fetch API uses Promises, which enables a simpler and cleaner API, avoiding callback hell.\
+<b>fetch()</b> allows you to make network requests similar to XMLHttpRequest (XHR). The main difference is that the Fetch API uses Promises, which enables a simpler and cleaner API, avoiding callback hell. \
+Javascript attempting to coerce an unexpected value type to the expected type.https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23 \
+Whenever you pass a string as an operand in a numeric/njuːˈmerɪk/ expression involving either of these operators: -, *, /, %, the number's conversion process is similar to calling the in-built Number function on the value. any string containing only numeric characters will be converted to it's number equivalent, but a string containing a non-numeric character returns NaN.\
+The + operator performs two functions: Mathematical addition, String concatenation (When a string is an operand of the + operator). \
