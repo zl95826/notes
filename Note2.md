@@ -1,3 +1,4 @@
+Number(undefined) // NaN    ||||  Number(null) // 0  \
 The general idea is that window.onload fires when the document's window is ready for presentation and document.onload fires when the DOM tree (built from the markup code within the document) is completed.\
 multiplication *, division /, addition +, subtraction -. Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}.\
 The word <b>“async”</b> before a function means one simple thing: a function always returns a promise. \
