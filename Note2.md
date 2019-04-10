@@ -15,5 +15,7 @@ The inherited toString method of Arrays work abit differently, it works in a way
 arr.reduce(callback[, initialValue]): the callback should have a return value  \
 <b>Destructuring</b> assignment allows you to assign the values of an array or properties of an object to variables using syntax that looks similar to array or object literals. \
 The <b>rest</b> operator lets you collect the remaining elements of an iterable into an Array. It must come last and it is used for rest parameters and destructuring. \
-The <b>spread</b> operator (...) looks exactly like the rest operator, but is used inside function calls and array/object literals (not inside destructuring patterns). The spread operator allows you to pull elements out of an array or pull the properties out of an object.
- myFunction(...iterableObj); |||| [...iterableObj, '4', 'five', 6]; |||| let objClone = { ...obj };
+The <b>spread</b> operator (...) looks exactly like the rest operator, but is used inside function calls and array/object literals (not inside destructuring patterns). The spread operator allows you to pull elements out of an array or pull the properties out of an object.\
+ syntax: myFunction(...iterableObj); |||| [...iterableObj, '4', 'five', 6]; |||| let objClone = { ...obj }; \
+ In general, ... used in the left of assignment operator is rest, used in the right is spread operator. \
+In a way, rest syntax is the opposite of spread syntax: spread 'expands' an array into its elements, while rest collects multiple elements and 'condenses/kənˈdens/' them into a single element.
