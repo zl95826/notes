@@ -25,8 +25,7 @@ const foo = 'bar'; \
 const baz = {foo}; \
 baz // {foo: "bar"} \
 // same as
-const baz = {foo: foo};\ http://es6.ruanyifeng.com/#docs/object
+const baz = {foo: foo};\ 
+http://es6.ruanyifeng.com/#docs/object \
 function f(x, y) {return {x, y};} \
-same as function f(x, y) {
-  return {x: x, y: y};
-} \
+same as function f(x, y) { return {x: x, y: y};} \
