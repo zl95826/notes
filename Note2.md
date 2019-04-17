@@ -20,4 +20,13 @@ The <b>spread</b> operator (...) looks exactly like the rest operator, but is us
 cheat sheet/trick:<b> In general, ... used in the left of assignment operator is rest, used in the right is spread operator.</b> \
 In a way, rest syntax is the opposite of spread syntax: spread 'expands' an array into its elements, while rest collects multiple elements and 'condenses/kənˈdens/' them into a single element. \
 The <b>throw</b> statement throws a user-defined exception. 'throw' is a statement, it performs an action; Execution/ˌek·sɪˈkju·ʃən/ of the current function will stop (the statements after throw won't be executed/ˈek·sɪˌkjut/), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate.\
-<b>Error is a constructor.</b>The Error constructor creates an error object. Instances of Error objects are thrown when runtime errors occur. 
+<b>Error is a constructor.</b>The Error constructor creates an error object. Instances of Error objects are thrown when runtime errors occur. \
+const foo = 'bar'; \
+const baz = {foo}; \
+baz // {foo: "bar"} \
+// same as
+const baz = {foo: foo};\ http://es6.ruanyifeng.com/#docs/object
+function f(x, y) {return {x, y};} \
+same as function f(x, y) {
+  return {x: x, y: y};
+} \
