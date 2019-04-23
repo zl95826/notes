@@ -29,6 +29,7 @@ const baz = {foo: foo};\
 http://es6.ruanyifeng.com/#docs/object \
 function f(x, y) {return {x, y};} \
 same as function f(x, y) { return {x: x, y: y};} \
-The process of a web browser turning HTML, CSS, and JavaScript into a finished visual representation: \
+<b>The process of a web browser turning HTML, CSS, and JavaScript into a finished visual representation:</b> \
 1 Process HTML markup and build the DOM tree; 2 Process CSS markup and build the CSSOM tree; 3 Combine the DOM and CSSOM into a render tree; 4 Browser computes the geometry of the layout and its elements based on the render tree(figure out the exact size and position of each visible object/node on the page); 5 Paint the individual nodes to the screen.\
 The browser combines the DOM and CSSOM into a "render tree," which captures all the visible DOM content on the page and all the CSSOM style information for each node. A render tree is then used to compute the layout of each visible element and serves as an input to the paint process that renders the pixels to screen. https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction \
+A <b>repaint</b> occurs when changes are made to an elements skin that changes visibly, but do not affect its layout.
