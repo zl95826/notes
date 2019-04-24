@@ -1,5 +1,5 @@
 Project\
-arrow function\
+arrow function: do not use arrow function expression to write method functions.\
 prototype\
 ParentNode.append VS Node.appendChild()\
 Custom Range Slider\
