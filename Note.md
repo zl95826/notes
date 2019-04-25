@@ -69,7 +69,7 @@ The <img> tag has two required attributes: src and alt. Images are not technical
   The closure function has access to the scope in which it was created, not the scope in which it is executed. In other words, <b>the inner function preserves the scope chain of the enclosing function at the time the enclosing function was executed, and thus can access the enclosing function’s variables.</b> Closures store references of outer variables, they don’t copy the actual values. \
   <b>Lexical scoping</b> means scope of a variable is defined by its location within the source code.\
   https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda  \
-<b>Context</b> is used to refer to the value of this in some particular part of your code. <b>Scope</b> refers to the visibility of variables and context refers to the value of this in the same scope. \
+<b>Context</b> is used to refer to the value of this in some particular part of your code. <b>Scope</b> refers to the visibility of variables and context refers to the value of this in the same scope. MDN defines “Scope” as “The current context of execution.” Each function when invoked creates a new scope.   \
 Scope defines the lifetime and visibility of a variable. Every time we create a function or a block {} , we create a new scope. Variables declared with var have only function scope. Variables declared with let and const can have function and block scope. \
 <b>How do I use a closure?</b>
 1.	Write a function.
