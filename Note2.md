@@ -5,6 +5,7 @@ multiplication *, division /, addition +, subtraction -. Backticks are “extend
 The word <b>“async”</b> before a function means one simple thing: a function always returns a promise. \
 async/await allows us to write promise-based(asynchronous) code in a "synchronous" manner using the modern versions of Javascript. https://javascript.info/async-await \
 <b>await</b>, that works only inside async functions, makes JavaScript wait until that promise settles and returns its result. <b>await</b> returns the fulfilled value of the promise, or the value itself if it's not a Promise.\
+await literally makes JavaScript wait until the promise settles, and then go on with the result. That doesn’t cost any CPU resources, because the engine can do other jobs meanwhile: execute other scripts, handle events etc.\
 With async/await we rarely need to write promise.then/catch, but we still shouldn’t forget that they are based on promises, because sometimes (e.g. in the outermost scope) we have to use these methods. \
 <b>fetch()</b> allows you to make network requests similar to XMLHttpRequest (XHR). The main difference is that the Fetch API uses Promises, which enables a simpler and cleaner API, avoiding callback hell. \
 Javascript attempting to coerce an unexpected value type to the expected type.https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23 \
