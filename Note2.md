@@ -3,7 +3,7 @@ Null has one value: null. It is explicitly nothing, so null must be assigned. A 
 The general idea is that window.onload fires when the document's window is ready for presentation and document.onload fires when the DOM tree (built from the markup code within the document) is completed.\
 multiplication *, division /, addition +, subtraction -. Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}.\
 The word <b>“async”</b> before a function means one simple thing: a function always returns a promise. \
-async/await allows us to write promise-based(asynchronous) code in a "synchronous" manner using the modern versions of Javascript. https://javascript.info/async-await \
+async/await allows us to write promise-based(asynchronous) code in a "synchronous" manner using the modern versions of Javascript. Or make asynchronous code look synchronous https://javascript.info/async-await \
 <b>await</b>, that works only inside async functions, makes JavaScript wait until that promise settles and returns its result. <b>await</b> returns the fulfilled value of the promise, or the value itself if it's not a Promise.\
 await literally makes JavaScript wait until the promise settles, and then go on with the result. That doesn’t cost any CPU resources, because the engine can do other jobs meanwhile: execute other scripts, handle events etc.\
 With async/await we rarely need to write promise.then/catch, but we still shouldn’t forget that they are based on promises, because sometimes (e.g. in the outermost scope) we have to use these methods. \
