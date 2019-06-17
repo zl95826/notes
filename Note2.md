@@ -2,6 +2,7 @@ Number(undefined) // NaN    ||||  Number(null) // 0  |||| Number([]) // return 0
 Null has one value: null. It is explicitly nothing, so null must be assigned. A variable that has no value is undefined. \
 The general idea is that window.onload fires when the document's window is ready for presentation and document.onload fires when the DOM tree (built from the markup code within the document) is completed.\
 multiplication *, division /, addition +, subtraction -. Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}.\
+A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason that it’s not resolved (e.g., a network error occurred). A promise may be in one of 3 possible states: fulfilled, rejected, or pending. Promise users can attach callbacks to handle the fulfilled value or the reason for rejection. \
 The word <b>“async”</b> before a function means one simple thing: a function always returns a promise. \
 async/await allows us to write promise-based(asynchronous) code in a "synchronous" manner using the modern versions of Javascript. Or make asynchronous code look synchronous https://javascript.info/async-await \
 <b>await</b>, that works only inside async functions, makes JavaScript wait until that promise settles and returns its result. <b>await</b> returns the fulfilled value of the promise, or the value itself if it's not a Promise.\
