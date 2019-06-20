@@ -4,6 +4,7 @@ prototype\
 ParentNode.append VS Node.appendChild()\
 Custom Range Slider\
 Redo JavaScript Progress Bar\
+Defining a method with the static keyword allows it to be called on a class without creating an object instance.Setters are special methods used to define values only. Similarly, Getters are special methods used to return a value only. \
 The oninput event occurs when an element gets user input.\
 This event occurs when the value of an <input> or <textarea> element is changed.\
 To make sure that you use browser that supports fat arrow.\
