@@ -2,6 +2,7 @@ Project\
 arrow function: do not use arrow function expression to write method functions.\
 prototype\
 ParentNode.append VS Node.appendChild()\
+Object.keys(obj) returns an array whose elements are strings corresponding to the enumerable properties of the given object. \
 Custom Range Slider\
 Redo JavaScript Progress Bar\
 Defining a method with the static keyword allows it to be called on a class without creating an object instance.Setters are special methods used to define values only. Similarly, Getters are special methods used to return a value only. \
