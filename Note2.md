@@ -47,6 +47,6 @@ Strict mode forces a program (or function) to work under a “strict” operatin
 When to NOT use “strict mode” in javascript?  \
 When you are running old (or third party) code that you haven't had time to update yet. Strict mode is simply better. It isn't on by default because it would break old code that was not written with it in mind.
 <hr />
-You type a URL in the browser, the browser checks the cache for a DNS(Domain Name System) record to find the corresponding IP address: if requested object is in browser cache and is fresh, browsers will display the page.\
-If the requested URL is not in the cache, the DNS server initiates a DNS query to find the IP address of the server that hosts;\
+You type a URL in the browser, the browser checks the cache for a DNS(Domain Name System) record to find the corresponding IP address: if requested object is in browser cache and is fresh, browsers will display the page. \
+If the requested URL is not in the cache, the DNS server initiates a DNS query to find the IP address of the server that hosts; \
 Browser initiates a TCP connection with the server; Browser sends a HTTP request to the server; Server handles the request and sends back a response; Browser receives the HTTP response; The browser displays the HTML content.
