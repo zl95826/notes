@@ -77,7 +77,10 @@ document.addEventListener("click", counter.inc(),false);\
   <b>React</b> \
 Hooks are nothing but methods where you can do appropriate things. If you know what we can do with each hooks and when they are called and why they are called, so we can control things very smoothly.\
 The render() method is the only required method in a class component.\
-<b>Functional Components vs Class Components</b>: The most obvious one difference is the syntax. A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element(/return valid JSX). It is also called a functional stateless component which doesn’t have its own state. Another feature which you cannot use in functional components are lifecycle hooks;
+<b>Functional Components vs Class Components</b>: The most obvious one difference is the syntax. A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element(/return valid JSX). It is also called a functional stateless component which doesn’t have its own state. Function components don’t manage state and don’t have any side-effects. However, React Hooks made it possible to have state in Function Components.
+Another feature which you cannot use in functional components are lifecycle hooks;
 A class component requires you to extend from React.Component and create a render function which returns a React element. This requires more code but will also give you some benefits.\
 You should use functional components if you are writing a component which doesn’t have its own state or needs to access a lifecycle hook. Otherwise you can stick to class components.\
-  <b>In a function component, we have no this, so we can’t assign or read this.state. In a function component, there is no render() method.</b>
+  <b>In a function component, we have no this, so we can’t assign or read this.state. In a function component, there is no render() method.</b>  \
+  Since React Hooks have been introduced in React, you can have state, side-effects and lifecycle methods in React Function Components now. That’s why I strongly believe React will move more towards Functional Components, because they are more lightweight than Class Components.
+  
