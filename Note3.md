@@ -4,4 +4,8 @@ Array.isArray(obj) The isArray() method determines whether an object is an array
 The destructuring assignment syntax is a JavaScript expression that unpacks values from arrays, or properties from objects, and assign into variables. It can also unpack properties from objects passed as function parameter. \
 flat() returns a new array that’s a flattened version of the array it was called on. The flat() method creates a new array with all sub-array elements concatenated into it. \
 const arr = [['krunal', 'ankit'], [21, 74]]; // ["krunal", "ankit", 21, 74]    \
-The overflow property only works for block elements with a specified height.
+The overflow property only works for block elements with a specified height. \
+The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).\
+justify-content: space-between; The first item is flush with the start, the last is flush with the end. There is an equal amount of space between each item. Distribute items evenly.\
+The align-items property is used to align the flex items vertically.\
+
