@@ -8,4 +8,4 @@ The overflow property only works for block elements with a specified height. \
 The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).\
 justify-content: space-between; The first item is flush with the start, the last is flush with the end. There is an equal amount of space between each item. Distribute items evenly.\
 The align-items property is used to align the flex items vertically.\
-
+The throw statement throws (generates) a user-defined exception/error.
