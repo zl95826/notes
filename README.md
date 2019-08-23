@@ -50,7 +50,7 @@ however if just {a}.a, it shows a syntax error, fix it by ({a}).a\
  <b>Object.values</b> takes an object and returns an array with the values, in the same order that a for…in loop would give us.\
  <b>Object.entries </b>returns an array with arrays of key-value pairs // https://alligator.io/js/object-entries-values/ \
   Plain objects (as created by object literals) are not iterable\
-  <b>Clone an object</b>: deep copy using iteration,JSON.parse(JSON.stringify(src));Object.assign() shallow copy\
+  <b>Clone an object</b>: deep copy using iteration,JSON.parse(JSON.stringify(src));Object.assign(), spread operator shallow copy\
   https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d \
   <b>How to concatenate arrays?</b> var arr1 = [0, 1, 2];var arr2 = [3, 4, 5];arr1 = arr1.concat(arr2); \
   Or using spread syntax: arr1 = [...arr1, ...arr2];\
