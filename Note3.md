@@ -9,4 +9,5 @@ The justify-content property aligns the flexible container's items when the item
 justify-content: space-between; The first item is flush with the start, the last is flush with the end. There is an equal amount of space between each item. Distribute items evenly.\
 The align-items property is used to align the flex items vertically.\
 The <b>throw</b> statement throws (generates) a user-defined exception/error. The exception can be a JavaScript String, a Number, a Boolean or an Object. \
-JavaScript has a built in <b>error</b> object that provides error information when an error occurs. The error object provides two useful properties: name and message.
+JavaScript has a built in <b>error</b> object that provides error information when an error occurs. The error object provides two useful properties: name and message. \
+The <b>in</b> operator returns true if the specified property is in the specified object or its prototype chain.
