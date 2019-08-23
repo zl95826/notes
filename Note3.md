@@ -10,4 +10,6 @@ justify-content: space-between; The first item is flush with the start, the last
 The align-items property is used to align the flex items vertically.\
 The <b>throw</b> statement throws (generates) a user-defined exception/error. The exception can be a JavaScript String, a Number, a Boolean or an Object. \
 JavaScript has a built in <b>error</b> object that provides error information when an error occurs. The error object provides two useful properties: name and message. \
-The <b>in</b> operator returns true if the specified property is in the specified object or its prototype chain.
+The <b>in</b> operator returns true if the specified property is in the specified object or its prototype chain. \
+<b>for ... in</b>: The loop will iterate over all enumerable properties of the object itself and its constructor's prototype(it's also an object) \
+If you use <b>obj.hasOwnProperty(prop)/<b> to check,  the inherited properties are not displayed.
