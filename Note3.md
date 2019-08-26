@@ -12,4 +12,6 @@ The <b>throw</b> statement throws (generates) a user-defined exception/error. Th
 JavaScript has a built in <b>error</b> object that provides error information when an error occurs. The error object provides two useful properties: name and message. \
 The <b>in</b> operator returns true if the specified property is in the specified object or its prototype chain. \
 <b>for ... in</b>: The loop will iterate over all enumerable properties of the object itself and its constructor's prototype(it's also an object) \
-If you use <b>obj.hasOwnProperty(prop)/<b> to check,  the inherited properties are not displayed.
+If you use <b>obj.hasOwnProperty(prop)/<b> to check,  the inherited properties are not displayed.\
+function.toString()/Function.prototype.toString() :The Function object overrides the toString method inherited from Object; it does not inherit Object.prototype.toString. \
+obj.toString()/Object.prototype.toString(): Every object has a toString() method. The toString() method is inherited by every object descended from Object. If this method is not overridden in a custom object, toString() returns "[object type]"
