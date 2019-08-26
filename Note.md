@@ -10,6 +10,7 @@ strict comparison (===)\
 CSS: Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements. 可以理解为对于a block element,它会add a line-break after the element,所以following elements只能start from a new line,即便它的width只占10%。\
 CSS property position可以和float同时使用。\
 <b>setTimeout()</b>: as its name suggests, you have a piece of code that you want to run after certain period of time, you use the setTimeout() function. One of the main application of setTimeout is make it asynchronous. There’s a special use case: setTimeout(func, 0). The function is scheduled to run “right after” the current code. In other words, asynchronously\
+setTimeout(func); // using setTimeout we can execute code after the stack is empty \
 setTimeout(() => alert("World"), 0);alert("Hello"); // this outputs “Hello”, then immediately “World”\
 setTimeout() serves as a minimum time for the delay part. setTimeout is not a part of the JavaScript engine, it’s a part of something known as web APIs (in browsers) and C/C++ APIs (in node.js).\
 <b>setInterval</b> method is very similar to setTimeout, but setTimeout happens only one (time); setInterval will keep executing a piece of code/a callback function at a given interval, it doesn't stop until you make a stop. setInterval guarantees that your code will be passed to STACK in exact intervals. Actual time of execution of your code have nothing with setInterval.\
