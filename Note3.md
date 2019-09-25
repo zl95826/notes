@@ -46,4 +46,5 @@ Example 4: +"1" + "1" + "2" Outputs: "112" Explanation: Although the first "1" o
 Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can not be applied to strings, and since neither "A" nor "B" can be converted to numeric values, "A" - "B" yields NaN which is then concatenated with the string "2" to yield “NaN2”.
 
 Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN. But any operator applied to NaN with any other numeric operand will still yield NaN. \
-<b>Filter</b> function take a function as an argument, and the callback function is executed/called on each element in the array, it determines whether this element fulfills a certain condition to make it into the new array.
+<b>Filter</b> function take a function as an argument, and the callback function is executed/called on each element in the array, it determines whether this element fulfills a certain condition to make it into the new array. \
+HTML attributes: spellcheck ,contenteditable, title: information is most often shown as a tooltip text when the mouse moves over the element.
