@@ -16,14 +16,12 @@ If you use <b>obj.hasOwnProperty(prop)/</b> to check,  the inherited properties 
 function.toString()/Function.prototype.toString() :The Function object overrides the toString method inherited from Object; it does not inherit Object.prototype.toString. \
 obj.toString()/Object.prototype.toString(): Every object has a toString() method. The toString() method is inherited by every object descended from Object. If this method is not overridden in a custom object, toString() returns "[object type]" \
 What will the code below output to the console and why ?
-
 console.log(1 +  "2" + "2");
 console.log(1 +  +"2" + "2");
 console.log(1 +  -"1" + "2");
 console.log(+"1" +  "1" + "2");
 console.log( "A" - "B" + "2");
 console.log( "A" - "B" + 2);
-
 
 The above code will output the following to the console:
 
