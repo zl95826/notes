@@ -53,5 +53,5 @@ undefined represents values that are missing, so when coerced, or converted to n
 What enumerable means? It simply means that the property will show up if you iterate over the object using for..inloop or Object.keys. Means we can iterate over object keys if keys are set to enumerable (By default enumerable)\
 A special operator <b>"in"</b> to check for the existence of a property.The syntax is: "key" in object.\
 <b>A variable stores not the object itself, but its “address in memory”, in other words “a reference” to it.</b> When an object variable is copied – the reference is copied, the object is not duplicated. An object declared as const cannot be reassigned but can be changed.\
-Properties starting with an underscore <b>"_"</b> are internal and should not be touched from outside the object.\
+Properties starting with an<b> underscore "_" </b> are internal and should not be touched from outside the object.\
 Accessor properties: They are essentially functions that work on getting and setting a value, but look like regular properties to an external code. Accessor properties are represented by “getter” and “setter” methods. In an object literal they are denoted by get and set. \
