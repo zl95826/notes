@@ -55,3 +55,5 @@ A special operator <b>"in"</b> to check for the existence of a property.The synt
 <b>A variable stores not the object itself, but its “address in memory”, in other words “a reference” to it.</b> When an object variable is copied – the reference is copied, the object is not duplicated. An object declared as const cannot be reassigned but can be changed.\
 Properties starting with an<b> underscore "_" </b> are internal and should not be touched from outside the object.\
 Accessor properties: They are essentially functions that work on getting and setting a value, but look like regular properties to an external code. Accessor properties are represented by “getter” and “setter” methods. In an object literal they are denoted by get and set. \
+The <b>status</b> of the response, xhr.status, is (generally) used to determine whether the request was successful or not. xhr.<b>readyState</b> is simply used to determine the state of the request, such as "has not yet been sent" (0), "complete and response received" (4), etc.\
+The server is responsible for providing the status, while the user agent provides the readyState.
