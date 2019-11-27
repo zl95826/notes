@@ -59,5 +59,6 @@ The <b>status</b> of the response, xhr.status, is (generally) used to determine 
 The server is responsible for providing the status, while the user agent provides the readyState.\
 for (let entry of mapObject) { // the same as of mapObject.entries(), entries return an array  \
 Array.prototype.concat() function is used to merge two or more arrays together. The arguments to this function are the arrays or the values that need to be added to the given array. This method does not change the existing arrays, but instead returns a new array.\
-It copies all members of the current one and adds items to it. If any of items is an array, then its elements are taken.
+It copies all members of the current one and adds items to it. If any of items is an array, then its elements are taken.\
+Arrow functions don’t have their own this. Now we know they don’t have the special arguments object either = Arrow functions do not have "arguments" objects.\
 
