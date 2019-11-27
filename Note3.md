@@ -57,5 +57,7 @@ Properties starting with an<b> underscore "_" </b> are internal and should not b
 Accessor properties: They are essentially functions that work on getting and setting a value, but look like regular properties to an external code. Accessor properties are represented by “getter” and “setter” methods. In an object literal they are denoted by get and set. \
 The <b>status</b> of the response, xhr.status, is (generally) used to determine whether the request was successful or not. xhr.<b>readyState</b> is simply used to determine the state of the request, such as "has not yet been sent" (0), "complete and response received" (4), etc.\
 The server is responsible for providing the status, while the user agent provides the readyState.\
-for (let entry of mapObject) { // the same as of mapObject.entries(), entries return an array
+for (let entry of mapObject) { // the same as of mapObject.entries(), entries return an array  \
+Array.prototype.concat() function is used to merge two or more arrays together. The arguments to this function are the arrays or the values that need to be added to the given array. This method does not change the existing arrays, but instead returns a new array.\
+It copies all members of the current one and adds items to it. If any of items is an array, then its elements are taken.
 
