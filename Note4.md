@@ -5,3 +5,4 @@ http://www.ruanyifeng.com/blog/2016/04/cors.html  \
 A shallow copy successfully copies the primitive types like numbers and strings, but any object reference will not be recursively copied, but instead, the new, copied object will reference the same object. The deep copy will duplicate every object it encounters. The copy and the original object will not share anything so that it will be a copy of the original. \
 The deep copy will duplicate every object it encounters. The copy and the original object will not share anything so that it will be a copy of the original. When performing a deep copy, those external objects are copied as well, so the new, cloned object is entirely independent of the old one. \
 A shallow copy: It means that nested properties are still going to be copied by reference. \
+Node.js basically allows you to run javascript not just in the browser but anywhere else like a normal programming language. \
