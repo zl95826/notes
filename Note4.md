@@ -9,6 +9,7 @@ Node.js basically allows you to run javascript not just in the browser but anywh
 Good article about Instagram API: https://www.jianshu.com/p/258e74351578 \
 Object.assign({}, ['a','b','c']); Or { ...['a', 'b', 'c'] } // {0:"a", 1:"b", 2:"c"} \
 <strong>Node</strong>\
+Node is not a framework, it's a runtime environment for executing JavaScript code. \
 http Module:helps us with launching a server or also with other tasks like sending requests because a node app could also send a request to another server.\
 To cancel any currently running process, you can press Ctrl + C and it will ask you if you are sure you want to Terminate batch job (Y/N)?
 At this point, you can type y and then press Enter and you will be back to the prompt.
