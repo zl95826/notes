@@ -54,7 +54,7 @@ The valueOf() method returns the primitive value of the specified object. || The
 It creates a new, empty object.\
 It binds this to our newly created object.\
 It adds a property onto our newly created object called “__proto__” which points to the constructor function’s prototype object.\
-It returns <i>this</i> automatically if the function doesn't return a different (its own) object, so that the object that is created is returned from the function.\
+It returns <i>this</i> automatically if the function doesn't return a different (its own) object, so that the object that is created is returned from the function.https://javascript.info/constructor-new\
 <b>Window sizes and scrolling</b>    https://javascript.info/size-and-scroll-window  \
 An <b>em</b> is equal to the computed font-size of that element’s parent. <b>rem</b> values are relative to the root html element, not to the parent element. \
 <b>Function declarations have priority over variable declarations, but not over variable assignments.</b> \
