@@ -16,3 +16,6 @@ To cancel any currently running process, you can press Ctrl + C and it will ask 
 At this point, you can type y and then press Enter and you will be back to the prompt.\
 https://www.freecodecamp.org/news/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8/  \
 Node.js can’t control the speed or time of data arrival, the speed of the stream. It only can decide when it’s time to send out the data. If it’s not yet time, Node.js will put them in the buffer — the “waiting area” — a small location in the RAM, until it’s time to send them out for processing. \
+++index will increment index by 1 before it's used. So, if index = 0, then arry[++index] is the same as arry[1]. \
+
+index++ will increment index by 1 after it's used. So, if index = 0, then arry[index++] is the same as arry[0]. After this, index will be 1. \
